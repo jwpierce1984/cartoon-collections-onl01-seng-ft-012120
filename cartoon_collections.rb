@@ -10,6 +10,7 @@ end
 
 def long_planeteer_calls(array)
   array.any? {|i| i > 4}
+  array.all? {|i| i <= 4}
 end
 
 def find_the_cheese# code an argument here
