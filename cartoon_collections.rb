@@ -1,4 +1,4 @@
-require 'pry'
+
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index {|name, index| puts "#{index + 1} #{name}"}
 end
@@ -7,7 +7,6 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.to_s.each {|calls| calls.upcase}.join("! ")
   #planeteer_calls.map {|calls| calls.upcase}.join("! ")
   # Your code here 
-  binding.pry
 end
 
 def long_planeteer_calls# code an argument here
